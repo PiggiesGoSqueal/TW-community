@@ -25,7 +25,8 @@ digits = "zero one two three four five six seven eight nine".split()
 f_digits = "one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty".split()
 
 mod = Module()
-mod.list("letter", desc="The spoken phonetic alphabet")
+#mod.list("letter", desc="The spoken phonetic alphabet") # BY COMMENTING THIS OUT I'VE DISABLED THE ALPHABET (e.g. "bat" false positives)
+
 mod.list("symbol_key", desc="All symbols from the keyboard")
 mod.list("arrow_key", desc="All arrow keys")
 mod.list("number_key", desc="All number keys")
